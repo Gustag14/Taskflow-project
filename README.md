@@ -1,14 +1,6 @@
-# TaskFlow 📋
+# TaskFlow 
 
 Una aplicación de gestión de tareas construida con JavaScript vanilla, sin frameworks ni dependencias externas.
-
-## ¿Qué es?
-
-TaskFlow es una app web ligera para crear, organizar y dar seguimiento a tareas personales. Todo funciona en el navegador: sin servidor, sin instalación, sin cuenta. Las tareas se guardan automáticamente en el almacenamiento local del navegador.
-
-Desarrollado durante la Fase 1 y ampliado con IA en la Fase 2 del curso.
-
----
 
 ## Características principales
 
@@ -37,21 +29,12 @@ Sin dependencias externas. Sin frameworks. Sin bundlers.
 
 ---
 
-## Instalación y uso
-
-No requiere instalación. Solo descarga o clona el repositorio y abre `index.html` en el navegador.
-
-```bash
-git clone https://github.com/tu-usuario/taskflow.git
-cd taskflow
-# Abre index.html en tu navegador favorito
-```
 
 O con servidor local (opcional):
 
 ```bash
 npx serve .
-# Abre http://localhost:3000
+# http://localhost:3000
 ```
 
 ---
@@ -65,7 +48,7 @@ taskflow/
 ├── styles.css          # Estilos
 └── docs/
     └── ai/
-        ├── ai-comparison.md      # Comparativa ChatGPT vs Claude
+        ├── ai-comparison.md      
         ├── cursor-workflow.md    # Flujo de trabajo con Cursor IDE
         ├── prompt-engineering.md # Prompts útiles documentados
         ├── experiments.md        # Experimentos con/sin IA + MCP
@@ -94,19 +77,5 @@ Elige entre ordenar por fecha de creación (más reciente primero) o por priorid
 
 ### Editar una tarea
 
-Haz clic en el botón ✏️ de cualquier tarea para abrirla en un modal de edición. Los cambios se guardan al pulsar "Guardar".
+Haz clic en el botón de cualquier tarea para abrirla en un modal de edición. Los cambios se guardan al pulsar "Guardar".
 
----
-
-## Contribuir
-
-1. Haz un fork del repositorio
-2. Crea una rama: `git checkout -b feature/nueva-funcionalidad`
-3. Haz tus cambios y commits claros
-4. Abre un Pull Request describiendo los cambios
-
----
-
-## Licencia
-
-MIT — puedes usar, modificar y distribuir libremente.
